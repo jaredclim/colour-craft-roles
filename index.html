@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Colour Craft Franchising · Founding Team Roles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brown-deep: #3d2502;
+    --brown: #573502;
+    --brown-soft: #6f4a16;
+    --cream: #faf6ee;
+    --cream-soft: #f3ecdb;
+    --white: #ffffff;
+    --text: #2a1d0a;
+    --text-soft: #6b5a3f;
+    --text-muted: #9a8a6e;
+    --gold: #ffae00;
+    --gold-deep: #d68f00;
+    --gold-soft: #fff1cc;
+    --green: #2d8a4e;
+    --green-soft: #e3f1e7;
+    --red: #b8362d;
+    --red-soft: #fdecea;
+    --border: #e9dfc6;
+    --shadow: 0 1px 3px rgba(61, 37, 2, 0.06), 0 8px 24px rgba(61, 37, 2, 0.04);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--text);
+    background: var(--cream);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .wordmark, .hero-eyebrow, .section-eyebrow, .opp-rank, .callout-label, .footer-wordmark { font-family: 'Montserrat', sans-serif; }
+
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+  .wrap-wide { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(180deg, var(--brown-deep) 0%, var(--brown) 100%);
+    color: #f5e9cf;
+    padding: 72px 24px 76px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold) 0%, var(--gold-deep) 100%);
+  }
+  .wordmark {
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    margin: 0 auto 18px;
+    display: inline-block;
+    padding: 6px 18px;
+    border-top: 1px solid rgba(255, 174, 0, 0.4);
+    border-bottom: 1px solid rgba(255, 174, 0, 0.4);
+  }
+  .hero-eyebrow {
+    color: #f0d9a8;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin: 30px 0 14px;
+  }
+  .hero h1 {
+    margin: 0 auto 22px;
+    font-size: 54px;
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #fff;
+    max-width: 720px;
+  }
+  .hero h1 .highlight { color: var(--gold); }
+  .hero-sub {
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 19px;
+    line-height: 1.55;
+    color: #e5d3a5;
+    font-weight: 400;
+  }
+  .hero-meta {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #d3bd86;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* OPENER */
+  .opener { padding: 56px 0 8px; background: var(--cream); }
+  .opener .pull {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: var(--brown);
+    margin: 0 0 18px;
+    letter-spacing: -0.01em;
+  }
+  .opener p { margin: 0 0 14px; color: var(--text-soft); }
+
+  /* SECTIONS */
+  .audit-section {
+    padding: 60px 0;
+    border-top: 1px solid var(--border);
+    background: var(--cream);
+  }
+  .audit-section.cream { background: var(--cream-soft); }
+  .audit-section.dark {
+    background: var(--brown-deep);
+    color: #f0e3c4;
+    border-top: 4px solid var(--gold);
+  }
+  .audit-section.dark p { color: #e0d2ad; }
+  .audit-section.dark p strong { color: #fff; }
+  .audit-section.dark h2 { color: #fff; }
+  .audit-section.dark .section-eyebrow { color: var(--gold); }
+  .audit-section.dark .lede { color: #d8c89c; }
+
+  .section-eyebrow {
+    color: var(--gold-deep);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+  }
+  .audit-section h2 {
+    font-size: 36px;
+    line-height: 1.12;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--brown);
+    margin: 0 0 14px;
+  }
+  .lede {
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--text-soft);
+    margin: 0 0 32px;
+    max-width: 680px;
+  }
+
+  /* CALLOUTS */
+  .callout {
+    background: var(--white);
+    border-left: 4px solid var(--gold);
+    border-radius: 4px;
+    padding: 22px 26px;
+    margin: 24px 0;
+    box-shadow: var(--shadow);
+  }
+  .callout.gold { background: var(--gold-soft); border-color: var(--gold-deep); }
+  .callout.dark { background: rgba(255, 174, 0, 0.08); border-color: var(--gold); color: #f5e9cf; }
+  .callout.dark p { color: #f5e9cf; }
+  .callout.dark p strong { color: #fff; }
+  .callout-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--brown);
+    margin: 0 0 8px;
+  }
+  .callout.dark .callout-label { color: var(--gold); }
+  .callout p { margin: 0; }
+  .callout p + p { margin-top: 10px; }
+
+  /* ROLE CARDS */
+  .opportunity {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 32px 32px 28px;
+    margin: 0 0 24px;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .opp-rank {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+    margin: 0 0 10px;
+    padding: 4px 10px;
+    background: var(--gold-soft);
+    border-radius: 3px;
+  }
+  .opportunity h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    color: var(--brown-deep);
+    margin: 0 0 8px;
+    line-height: 1.18;
+  }
+  .opp-tagline {
+    color: var(--text-soft);
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 22px;
+  }
+  .opp-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 18px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border);
+  }
+  .opp-row .key {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--brown);
+    padding-top: 4px;
+  }
+  .opp-row .key.off { color: var(--red); }
+  .opp-row .val { color: var(--text); font-size: 15.5px; line-height: 1.55; }
+  .opp-row .val em { color: var(--brown-soft); font-style: italic; }
+
+  /* SHARED LANES */
+  .strengths { list-style: none; padding: 0; margin: 0; }
+  .strengths li {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--green);
+    border-radius: 4px;
+    padding: 18px 22px;
+    margin: 0 0 12px;
+    box-shadow: var(--shadow);
+  }
+  .strengths strong {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--brown);
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    letter-spacing: -0.005em;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--brown-deep);
+    color: #d3bd86;
+    padding: 48px 24px;
+    text-align: center;
+    border-top: 4px solid var(--gold);
+  }
+  .footer-wordmark {
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    margin: 0 auto 18px;
+    display: inline-block;
+    padding: 6px 18px;
+    border-top: 1px solid rgba(255, 174, 0, 0.4);
+    border-bottom: 1px solid rgba(255, 174, 0, 0.4);
+  }
+  footer p { margin: 8px 0; font-size: 14px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 640px) {
+    .hero { padding: 56px 24px 56px; }
+    .hero h1 { font-size: 36px; }
+    .hero-sub { font-size: 17px; }
+    .audit-section h2 { font-size: 28px; }
+    .opportunity { padding: 24px 22px; }
+    .opportunity h3 { font-size: 22px; }
+    .opp-row { grid-template-columns: 1fr; gap: 4px; }
+    .opp-row .key { padding-top: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wordmark">Colour Craft Franchising</div>
+  <div class="hero-eyebrow">Founding Team &middot; August 2026</div>
+  <h1>Who Owns <span class="highlight">What</span></h1>
+  <p class="hero-sub">Roles for Jared, GianCarlo, and Brad, defined in the August 13 partner session. A working draft for feedback, not a constitution.</p>
+  <div class="hero-meta">
+    <span>Jared Lim</span>
+    <span>GianCarlo Lies</span>
+    <span>Brad Samuels</span>
+  </div>
+</div>
+
+<div class="opener">
+  <div class="wrap">
+    <p class="pull">Most of what the franchisor needs takes two or three of our skill sets. The goal is not silos. It is knowing who drives each area, who supports, and what none of us should be doing at all.</p>
+    <p>Prepared by Claude Code from the session transcript and the role-mapping doc the team built live. Owns means you drive it and make the calls. Supports means you contribute your piece inside the owner's lane. Off the plate means it was explicitly flagged as outside your strengths or interest.</p>
+  </div>
+</div>
+
+<div class="audit-section">
+  <div class="wrap-wide">
+    <div class="section-eyebrow">01 &middot; The Three Roles</div>
+    <h2>One lane each, built on strengths</h2>
+    <p class="lede">Each role maps to what came out of the strengths and interests round: where each person is strongest, most energized, and most useful to the franchisor over the next 12 to 18 months.</p>
+
+    <div class="opportunity">
+      <div class="opp-rank">Jared &middot; People, Systems &amp; AI</div>
+      <h3>Jared Lim</h3>
+      <p class="opp-tagline">Zone of genius: recruiting and developing key people, filling gaps through people and systems, and quality control that raises the standard of everything the team ships. From discovery call until a franchisee is successful, Jared drives it.</p>
+      <div class="opp-row">
+        <div class="key">Owns</div>
+        <div class="val">The franchisee recruitment system, from info call through application, interviews, and enrollment. Franchisee support and development strategy: learning platforms, script writing, and final editing oversight. Ongoing system development and continuous improvement. Culture and team development. The AI stack: automations, dashboards, research tools, and meeting capture. Team meeting rhythm, including scheduling, Zoom, and automated notes and action items.</div>
+      </div>
+      <div class="opp-row">
+        <div class="key">Supports</div>
+        <div class="val">The analytical side of marketing: Google Ads, SEO reverse-engineering, and content performance analysis via AI reports. Strategic planning. Financial analysis. Building the outbound system that gets Brad onto podcasts and stages.</div>
+      </div>
+      <div class="opp-row">
+        <div class="key off">Off the plate</div>
+        <div class="val">Filming and editing execution. Bookkeeping and invoicing. Legal and administration.</div>
+      </div>
+    </div>
+
+    <div class="opportunity">
+      <div class="opp-rank">GianCarlo &middot; Marketing &amp; New Markets</div>
+      <h3>GianCarlo Lies</h3>
+      <p class="opp-tagline">Zone of genius: leadership through vision and values, consultative sales across $30M+ sold, creative offers and promotions, and taking big bets and delivering on them. Increasingly comfortable on camera and driving the content engine.</p>
+      <div class="opp-row">
+        <div class="key">Owns</div>
+        <div class="val">Company-level marketing strategy: organic social, Meta ads, and email marketing. Content capture, creation, and being on camera. New market launches: the launch playbook plus hands-on, in-market support when a franchisee opens new territory.</div>
+      </div>
+      <div class="opp-row">
+        <div class="key">Supports</div>
+        <div class="val">Franchisee marketing strategy across all channels. Franchisee recruitment and sales. Strategic planning with Jared. Social strategy and scripting with Jared and Brad.</div>
+      </div>
+      <div class="opp-row">
+        <div class="key off">Off the plate</div>
+        <div class="val">Editing. Legal and administration.</div>
+      </div>
+    </div>
+
+    <div class="opportunity">
+      <div class="opp-rank">Brad &middot; Finance, Legal &amp; Facilitation</div>
+      <h3>Brad Samuels</h3>
+      <p class="opp-tagline">Zone of genius: creation and expression, backed by strong generalist range, initiating new things, and being good with money. The team's job is to get Brad in front of people: camera, stages, podcasts, and live rooms.</p>
+      <div class="opp-row">
+        <div class="key">Owns</div>
+        <div class="val">Finances. Legal and administration, because getting the legal side right protects all three partners and Brad wants it done right. Live facilitation of franchisee sessions and planning days.</div>
+      </div>
+      <div class="opp-row">
+        <div class="key">Supports</div>
+        <div class="val">Franchisee marketing, recruitment, and sales. Script writing and filming for franchisee-facing content. Editing oversight until it is outsourced. Ongoing system development with Jared. Website and SEO, held for now.</div>
+      </div>
+      <div class="opp-row">
+        <div class="key off">Off the plate</div>
+        <div class="val">Email marketing. New market launches. Ongoing coaching systems. Day-to-day management.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="audit-section cream">
+  <div class="wrap">
+    <div class="section-eyebrow">02 &middot; Shared Lanes</div>
+    <h2>Where we deliberately overlap</h2>
+    <p class="lede">Three areas stay joint by design. The point is knowing which piece of each belongs to whom.</p>
+    <ul class="strengths">
+      <li><strong>Franchisee recruitment and sales</strong>Every franchisee goes through all three of us. GianCarlo and Brad create the attraction; Jared runs the formal process from expressed interest through qualification, interviews, and enrollment.</li>
+      <li><strong>Marketing strategy</strong>GianCarlo leads. Brad brings scripting and on-camera presence. Jared brings the scientific side: analytics, testing, and AI-driven reporting. One strategy, three inputs.</li>
+      <li><strong>Strategic planning</strong>Big-picture vision, goal setting, and budget allocation stay a three-person exercise, with Jared and GianCarlo driving the process.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="audit-section dark">
+  <div class="wrap">
+    <div class="section-eyebrow">03 &middot; How We Operate</div>
+    <h2>Three agreements from the session</h2>
+    <div class="callout dark">
+      <div class="callout-label">The $5K rule</div>
+      <p>Budgets get set per initiative at strategic planning. Whoever owns the initiative spends freely under $5,000 within that budget. Anything above $5,000 is a team check-in. Autonomy without bottlenecks, oversight without hoops.</p>
+    </div>
+    <div class="callout dark">
+      <div class="callout-label">Zone of genius accountability</div>
+      <p>Early on we will all work outside our zones when we have to. But as we grow, we call each other out when someone is spending time outside their zone of genius when they do not have to. That time costs the company money and momentum.</p>
+    </div>
+    <div class="callout dark">
+      <div class="callout-label">AI runs the internal ops</div>
+      <p>Jared's AI stack automates meeting notes, action items, and an executive dashboard for franchisor metrics. It doubles as a core differentiator in the franchise offering: custom tooling the established players are not offering their franchisees.</p>
+    </div>
+  </div>
+</div>
+
+<div class="audit-section">
+  <div class="wrap">
+    <div class="section-eyebrow">04 &middot; Outsource + Open</div>
+    <h2>What none of us should do, and what is unresolved</h2>
+    <div class="callout gold">
+      <div class="callout-label">Outsource now</div>
+      <p><strong>Video editing.</strong> Nobody's zone of genius, cheap to replace, and the highest-leverage time saver across all three of us. <strong>SEO</strong> follows the same logic; Brad holds it only until it is handed off.</p>
+    </div>
+    <div class="callout">
+      <div class="callout-label">Open items for the next session</div>
+      <p><strong>Ongoing coaching systems</strong> need an owner; nothing is documented yet and Brad passed on it. <strong>Website and SEO</strong> need a long-term home. <strong>Trade shows</strong> are undecided: strong for franchisee recruiting, heavy on time.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-wordmark">Colour Craft Franchising</div>
+  <p>Prepared by Claude Code &middot; Commissioned by Jared Lim</p>
+  <p>Source: August 13, 2026 founding team session &middot; Draft for team feedback</p>
+</footer>
+
+</body>
+</html>
